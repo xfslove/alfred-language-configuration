@@ -1,2 +1,2 @@
 
-# alfred-language-setting
+# alfred-language-configuration

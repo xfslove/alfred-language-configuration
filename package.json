@@ -1,13 +1,13 @@
 {
-  "name": "alfred-language-setting",
+  "name": "alfred-language-configuration",
   "version": "1.1.8",
-  "description": "Alfred 3 workflow alfred-google-translate language setting",
+  "description": "Alfred 3 workflow alfred-google-translate language configuration",
   "license": "MIT",
-  "repository": "xfslove/alfred-language-setting",
+  "repository": "xfslove/alfred-language-configuration",
   "author": {
     "name": "hanwen.huang",
     "email": "xfslove@gmail.com",
-    "url": "https://github.com/xfslove/alfred-language-setting"
+    "url": "https://github.com/xfslove/alfred-language-configuration"
   },
   "engines": {
     "node": ">=4"
@@ -18,7 +18,8 @@
     "preuninstall": "alfy-cleanup"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "language.js",
     "info.plist"
   ],
   "keywords": [
