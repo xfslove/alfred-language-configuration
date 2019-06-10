@@ -9,13 +9,17 @@
 - install with `npm install -g alfred-language-configuration`
 - or [download](https://github.com/xfslove/alfred-language-configuration/releases/tag/v1.0.0) workflow
 
-## [Change Log](https://github.com/xfslove/alfred-language-configuration/releases)
+## [Changelog](https://github.com/xfslove/alfred-language-configuration/releases)
 
 ## Usage
 
 Alfred workflow Keyword `trc`, configuration format: `source language keyword>target language keyword`. language key word see the [Supported Language List](#Supported Language List)
 
 eg: `trc en>ja` means translate iuput from english to japanese.
+
+## Snapshot
+
+![config.png](media/config.png)
 
 ## Supported Language List
 
@@ -126,7 +130,3 @@ eg: `trc en>ja` means translate iuput from english to japanese.
 |yi|Yiddish|
 |yo|Yoruba|
 |zu|Zulu|
-
-## Looks like
-
-![config.png](media/config.png)
