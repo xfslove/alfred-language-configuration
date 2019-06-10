@@ -15,7 +15,7 @@
 
 Alfred workflow Keyword `trc`.
 
-configuration format: `source language keyword>target language keyword`, and language key word see the [Supported Language List](#Supported Language List).
+configuration format: `source language keyword>target language keyword`, and language key word see the [Supported Language List](#supported-language-list).
 
 eg: `trc en>ja` means translate iuput from english to japanese.
 
