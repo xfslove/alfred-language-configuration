@@ -18,12 +18,18 @@ var items = [];
 if (!currentSource) {
   items.push({
     title: `language config failure, config format: source>target`,
-    subtitle: `source language [${config[0]}] not supported`
+    subtitle: `source language [${config[0]}] not supported`,
+    icon: {
+      path: 'warn.png'
+    }
   });
 } else if (!currentTarget) {
   items.push({
     title: `language config failure, config format: source>target`,
-    subtitle: `target language [${config[1]}] not supported`
+    subtitle: `target language [${config[1]}] not supported`,
+    icon: {
+      path: 'warn.png'
+    }
   });
 } else {
   store.set('source', currentSource);

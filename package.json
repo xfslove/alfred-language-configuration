@@ -20,6 +20,8 @@
   "files": [
     "index.js",
     "language.js",
+    "icon.png",
+    "warn.png",
     "info.plist"
   ],
   "keywords": [
