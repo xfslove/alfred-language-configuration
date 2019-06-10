@@ -1,6 +1,6 @@
 {
   "name": "alfred-language-configuration",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Alfred 3 workflow alfred-google-translate language configuration",
   "license": "MIT",
   "repository": "xfslove/alfred-language-configuration",
@@ -19,7 +19,7 @@
   },
   "files": [
     "index.js",
-    "language.js",
+    "languages.js",
     "icon.png",
     "warn.png",
     "info.plist"
