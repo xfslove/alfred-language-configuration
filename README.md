@@ -41,8 +41,8 @@ eg: `trc en>ja` means translate iuput from english to japanese.
 |ca|Catalan|
 |ceb|Cebuano|
 |ny|Chichewa|
-|zh-cn|Chinese Simplified|
-|zh-tw|Chinese Traditional|
+|zh-CN|Chinese Simplified|
+|zh-TW|Chinese Traditional|
 |co|Corsican|
 |hr|Croatian|
 |cs|Czech|
