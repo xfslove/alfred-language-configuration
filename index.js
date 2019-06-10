@@ -7,9 +7,9 @@ const q = alfy.input;
 
 const config = q.split('>');
 
-const config = new Configstore('language-config-pair');
-var originSource = config.get('source') ? config.get('source') : 'default';
-var originTarget = config.get('target') ? config.get('target') : 'default';
+const store = new Configstore('language-config-pair');
+var originSource = store.get('source') ? store.get('source') : 'default';
+var originTarget = store.get('target') ? store.get('target') : 'default';
 
 var currentSource = language.getCode(config[0]);
 var currentTarget = language.getCode(config[1]);
@@ -26,8 +26,8 @@ if (!currentSource) {
     subtitle: `target language [${config[1]}] not supported`
   });
 } else {
-  config.set('source', currentSource);
-  config.set('target', currentTarget);
+  store.set('source', currentSource);
+  store.set('target', currentTarget);
   items.push({
     title: `language config success, current: ${currentSource}>${currentTarget}`,
     subtitle: `original: ${originSource}>${originTarget}`
