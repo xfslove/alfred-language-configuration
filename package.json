@@ -1,0 +1,45 @@
+{
+  "name": "alfred-language-setting",
+  "version": "1.1.8",
+  "description": "Alfred 3 workflow alfred-google-translate language setting",
+  "license": "MIT",
+  "repository": "xfslove/alfred-language-setting",
+  "author": {
+    "name": "hanwen.huang",
+    "email": "xfslove@gmail.com",
+    "url": "https://github.com/xfslove/alfred-language-setting"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js"
+    "info.plist"
+  ],
+  "keywords": [
+    "translate",
+    "google-translate",
+    "alfred",
+    "alfred-workflow",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "^0.6.0",
+    "configstore": "^2.0.0"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "puppeteer": "^1.11.0",
+    "codecov": "^1.0.1",
+    "coveralls": "^2.11.11",
+    "nyc": "^7.0.0",
+    "ava": "*",
+    "xo": "*"
+  }
+}
