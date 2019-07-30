@@ -52,7 +52,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>config language pair(source&gt;target)</string>
+				<string>language configuration</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
