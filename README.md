@@ -16,7 +16,7 @@
 Alfred workflow Keyword `trc`.
 
 - Assign the source and target language with '>': `source language keyword>target language keyword`.
-- Assign the language pair with '&': `first one language keyword&the second language keyword` .
+- Assign the language pair with '&': `first one language keyword&the second language keyword` .(**The Language Auto Detected**)
 - You can using the `trc ls` get the current configuration.
 -  Language key word see the [Supported Language List](#supported-language-list).
 
