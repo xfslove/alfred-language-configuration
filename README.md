@@ -7,7 +7,7 @@
 *Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
 
 - install with `npm install -g alfred-language-configuration`
-- or [download](https://github.com/xfslove/alfred-language-configuration/releases/tag/v1.0.1) workflow
+- or [download](https://github.com/xfslove/alfred-language-configuration/releases/tag/v1.0.2) workflow
 
 ## [Changelog](https://github.com/xfslove/alfred-language-configuration/releases)
 
@@ -15,13 +15,20 @@
 
 Alfred workflow Keyword `trc`.
 
-configuration format: `source language keyword>target language keyword`, and language key word see the [Supported Language List](#supported-language-list).
+- Assign the source and target language with '>': `source language keyword>target language keyword`.
+- Assign the language pair with '&': `first one language keyword&the second language keyword` .
+- You can using the `trc ls` get the current configuration.
+-  Language key word see the [Supported Language List](#supported-language-list).
 
-eg: `trc en>ja` means translate iuput from english to japanese.
+eg: `trc en>zh-CN` means translate iuput from English to Chinese. `trc en&zh-CN` means let the translate workflow detect the input to dicide the source and target languages, `tr hello` will get the Chinese translations, `tr 你好` will get the English translations.
 
 ## Snapshot
 
+![config2.png](media/config2.png)
+
 ![config.png](media/config.png)
+
+![ls.png](media/ls.png)
 
 ## Supported Language List
 
