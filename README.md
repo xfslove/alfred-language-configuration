@@ -4,10 +4,10 @@
 
 ## Install
 
-*Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
+*Requires [Node.js](https://nodejs.org) 8+ and the Alfred 3 or 4 [Powerpack](https://www.alfredapp.com/powerpack/).*
 
 - install with `npm install -g alfred-language-configuration`
-- or [download](https://github.com/xfslove/alfred-language-configuration/releases/tag/v1.0.2) workflow
+- or [download](https://github.com/xfslove/alfred-language-configuration/releases/tag/v1.0.3) workflow
 
 ## [Changelog](https://github.com/xfslove/alfred-language-configuration/releases)
 
