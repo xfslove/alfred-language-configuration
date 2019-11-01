@@ -88,6 +88,7 @@ var langs = {
     'sm': 'Samoan',
     'gd': 'Scots Gaelic',
     'sr': 'Serbian',
+    'sr-Latn': 'Serbian Latin',
     'st': 'Sesotho',
     'sn': 'Shona',
     'sd': 'Sindhi',
