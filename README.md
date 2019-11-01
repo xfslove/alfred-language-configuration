@@ -114,6 +114,7 @@ eg: `trc en>zh-CN` means translate iuput from English to Chinese. `trc en&zh-CN`
 |sm|Samoan|
 |gd|Scots Gaelic|
 |sr|Serbian|
+|sr-Latn|Serbian Latin|
 |st|Sesotho|
 |sn|Shona|
 |sd|Sindhi|
