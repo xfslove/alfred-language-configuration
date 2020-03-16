@@ -2,28 +2,30 @@
 
 [![NPM](https://nodei.co/npm/alfred-language-configuration.png)](https://nodei.co/npm/alfred-language-configuration/)
 
-## Install
+## Installation
 
-*Requires [Node.js](https://nodejs.org) 8+ and the Alfred 3 or 4 [Powerpack](https://www.alfredapp.com/powerpack/).*
+*Requires the Alfred 3 or 4 [Powerpack](https://www.alfredapp.com/powerpack/), [Node.js](https://nodejs.org) 8+, and the original [alfred-google-translate](https://github.com/xfslove/alfred-google-translate) workflow.*
 
-- install with `npm install -g alfred-language-configuration`
-- or [download](https://github.com/xfslove/alfred-language-configuration/releases/tag/v1.0.3) workflow
-- install the main workflow [alfred-google-translate](https://github.com/xfslove/alfred-google-translate)
+### With NPM
+- Install the original workflow with `npm install -g alfred-google-translate`.
+- Install this configuration workflow with `npm install -g alfred-language-configuration`.
 
-## [Changelog](https://github.com/xfslove/alfred-language-configuration/releases)
+### Manually
+- Install the original [alfred-google-translate](https://github.com/xfslove/alfred-google-translate) workflow.
+- Install this [alfred-language-configuration](https://github.com/xfslove/alfred-language-configuration/releases/tag/v1.0.3) workflow.
+
+## Changelog
+See [all past and current releases](https://github.com/xfslove/alfred-language-configuration/releases).
 
 ## Usage
 
-Alfred workflow Keyword `trc`.
+- Assign a *source* and *target* langauge by either… (See [Supported Language List](#supported-language-list))
+    - **Choosing a bi-directional langauge pair** which will auto-translate either direction using `trc [source language keyword]&[target language keyword]` (For example `trc en&zh-CN` will cause the translate workflow to autodetect the target language so `tr hello` will display a Chinese translation and `tr 你好` will display an English translation.).
+    - ***OR*** by **Choosing a one-way translation pair** using `trc [source language keyword]>[target language keyword]` (For example `trc en>zh-CN` will cause the translate workflow to only translate from English to Chinese.).
 
-- Assign the source and target language with '>': `source language keyword>target language keyword`.
-- Assign the language pair with '&': `first one language keyword&the second language keyword` .(**The Language Auto Detected**)
-- You can using the `trc ls` get the current configuration.
--  Language key word see the [Supported Language List](#supported-language-list).
+- Get the current configuration with `trc ls`.
 
-eg: `trc en>zh-CN` means translate iuput from English to Chinese. `trc en&zh-CN` means let the translate workflow detect the input to dicide the source and target languages, `tr hello` will get the Chinese translations, `tr 你好` will get the English translations.
-
-## Snapshot
+## Screenshots
 
 ![config2.png](media/config2.png)
 
