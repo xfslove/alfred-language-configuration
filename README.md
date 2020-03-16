@@ -8,6 +8,7 @@
 
 - install with `npm install -g alfred-language-configuration`
 - or [download](https://github.com/xfslove/alfred-language-configuration/releases/tag/v1.0.3) workflow
+- install the main workflow [alfred-google-translate](https://github.com/xfslove/alfred-google-translate)
 
 ## [Changelog](https://github.com/xfslove/alfred-language-configuration/releases)
 
